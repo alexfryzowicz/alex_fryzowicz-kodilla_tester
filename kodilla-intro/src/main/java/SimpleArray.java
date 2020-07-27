@@ -1,6 +1,6 @@
 public class SimpleArray {
     public static void main(String[] args) {
-        String[] books = new String[] {"A little life",  "Little Prince", "Shoe Dog", "When Breath Becomes Air", "Wild"};
+        String[] books = new String[]{"A little life", "Little Prince", "Shoe Dog", "When Breath Becomes Air", "Wild"};
 
         System.out.println(books);
 
@@ -8,6 +8,10 @@ public class SimpleArray {
         System.out.println(book);
         int numberOfElements = books.length;
         System.out.println(numberOfElements);
+        System.out.println("----------");
+        for (int i = 0; i < books.length; i++) {
+            System.out.println(books[i]);
+        }
     }
 }
 
