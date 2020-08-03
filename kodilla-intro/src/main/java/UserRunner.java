@@ -14,12 +14,13 @@ public class UserRunner {
             int temp = random.nextInt(31);
             sum = sum + temp;
             System.out.println(temp);
-            result ++;
-            for (temp = 0; temp < minimum; temp++);
+            result++;
+            for (temp = 0; temp < minimum; temp++) ;
             minimum = temp;
             System.out.println("the lowest number is " + temp);
-            for (temp = 30; temp > maximum; temp++);
+            for (temp = 30; temp > maximum; temp++) ;
             maximum = temp;
             System.out.println("the highest number is " + temp);
         }
-} }
+    }
+}
