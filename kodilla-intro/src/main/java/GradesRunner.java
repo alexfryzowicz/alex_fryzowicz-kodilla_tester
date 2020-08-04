@@ -14,7 +14,7 @@ public class GradesRunner {
         assesment.add(6);
         assesment.add(6);
         int lastGrade = assesment.getLastGrade();
-        int Average = assesment.getAverage();
+        double Average = assesment.getAverage();
 
         System.out.println(lastGrade);
         System.out.println(Average);

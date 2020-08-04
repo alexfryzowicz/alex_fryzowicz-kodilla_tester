@@ -21,7 +21,7 @@ public class Grades {
         return lastGrade;
     }
 
-    public int getAverage() {
+    public double getAverage() {
     int sum = 0;
     for (int i = 0; i < grades.length; i++) {
         sum = sum + grades[i];
