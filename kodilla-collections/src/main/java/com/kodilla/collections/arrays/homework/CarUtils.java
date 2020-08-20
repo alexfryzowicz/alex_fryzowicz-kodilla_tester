@@ -2,6 +2,7 @@ package com.kodilla.collections.arrays.homework;
 
 import com.kodilla.collections.interfaces.homework.Audi;
 import com.kodilla.collections.interfaces.homework.Car;
+import com.kodilla.collections.interfaces.homework.Ford;
 import com.kodilla.collections.interfaces.homework.VW;
 
 public class CarUtils {
@@ -16,6 +17,8 @@ public class CarUtils {
             return "Audi";
         else if (car instanceof VW)
             return "VW";
+        else if (car instanceof Ford)
+            return "Ford";
         else
             return "no car detected";
     }
