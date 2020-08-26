@@ -11,7 +11,6 @@ public class BookManager {
         Book book = new Book(title, author);
         if (books.contains(book)) {
             System.out.println("title: " + book.getTitle() + " author: " + book.getAuthor() + " result: " + " exist.");
-            books.add(book);
         } else {
             System.out.println("title: " + book.getTitle() + " author: " + book.getAuthor() + " result: " + " no exist.");
             books.add(book);
@@ -19,7 +18,7 @@ public class BookManager {
         return book;
     }
 
-    public void existBooks() {
+    public void countExistBooks() {
         System.out.println("all exist books: " + books.size());
     }
 
