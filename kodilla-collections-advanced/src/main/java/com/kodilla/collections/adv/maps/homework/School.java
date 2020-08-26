@@ -5,32 +5,30 @@ import java.util.List;
 
 public class School {
     private String schoolName;
-    private List<Double> schools = new ArrayList<>();
+    private List<Integer> studentsList = new ArrayList<>();
 
 
-    public School(String schoolName, double... schools) {
+    public School(String schoolName, Integer... studentsList) {
         this.schoolName = schoolName;
-        for (double learner : schools)
-
-            this.schools.add(learner);
+        for (Integer learner : studentsList)
+            this.studentsList.add(learner);
     }
 
-    public double getLearnerNumber() {
-        double sum = 0;
-        for (double learner : schools)
+    public int getLearnerNumber() {
+        int sum = 0;
+        for (int learner : studentsList)
             sum += learner;
-        return sum++;
+        return sum;
     }
 
     public String getSchoolName() {
-
         return schoolName;
     }
 
     @Override
     public String toString() {
 
-        return "schools" + schools.toString();
+        return "students list " + studentsList.toString();
     }
 
 }
