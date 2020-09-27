@@ -1,0 +1,3 @@
+[0927/181844.501:ERROR:process_info.cc(359)] UncheckedAllocate
+[0927/181845.495:ERROR:process_info.cc(359)] UncheckedAllocate
+[0927/181845.554:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\aleks\AppData\Local\Temp\scoped_dir28508_2022898562\Crashpad\reports\bdaced3b-04c4-4f2f-a78b-12c68a4039f3.dmp: Proces nie mo¿e uzyskaæ dostêpu do pliku, poniewa¿ jest on u¿ywany przez inny proces. (0x20)
